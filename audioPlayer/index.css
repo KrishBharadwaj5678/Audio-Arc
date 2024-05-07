@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    color: white;
+
+    
+}
+
+div.page1{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.box{
+    width: 25%;
+    height: 570px;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+div.image{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    height: 200px;
+}
+
+/* Album Design */
+
+img.show_album{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+
+}
+
+div.msc_name,div.msc_artist{
+    display: inline-block;
+    margin: 40px 0px 0px 60px;
+    font-size: 11px;
+    line-height: 31px;
+    letter-spacing: 0.4px;
+
+}
+
+
+ div.msc_artist{
+    margin: 10px 50px 0px 60px;
+    line-height: 28px;
+    font-size: 12px;
+    opacity: 0.7;
+    
+}  
+
+div.blocks{
+    width: 100%;
+    margin: 35px 0px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+    font-size: 23px;
+}
+
+div.main-btn{
+    position: relative;
+}
+
+i.fa-play,i.fa-pause{
+    position: absolute;
+}
+
+/* Play Button */
+i.fa-pause{
+    display: none;
+}
+
+/* Progress Bar */
+
+div.bar{
+    width: 70%;
+    height: 10px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.4);
+    margin: 0px 0px 0px 50px;
+    position:  relative;
+
+}
+
+/* Main Point in Progress Bar */
+
+ div.point{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;;
+    background: white;
+} 
+
+div.time{
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    gap: 165px;
+    padding: 0px 50px;
+}
+

@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "albumImage":"https://www.pagalworld.online/GpE34Kg9Gq/113812/152261-teri-baaton-mein-aisa-uljha-jiya-title-song-300.jpg",
+        "musicName":"Teri Baaton Mein Aisa Uljha Jiya",
+        "artist":"Raghav, Tanishk Bagchi, Asees Kaur",
+        "musicSrc":"TeriBaat.mp3"
+        
+        
+    },
+    {
+        "id":2,
+        "albumImage":"https://pagalnew.com/coverimages/Dil-Diyan-Gallan-Tiger-Zinda-Hai-500-500.jpg",
+        "musicName":"Dil Diyan Gallan",
+        "artist":"Atif Aslam",
+        "musicSrc":"DilDiyanGallan.mp3"
+        
+    },
+    {
+        "id":3,
+        "albumImage":"https://pagalnew.com/coverimages/Teri-Ore-Singh-Is-Kinng-500-500.jpg",
+        "musicName":"Teri Ore",
+        "artist":"Pritam, Shreya Ghoshal, Rahat Fateh Ali Khan",
+        "musicSrc":"TeriOre.mp3"
+        
+    },
+    {
+        "id":4,
+        "albumImage":"https://pagalnew.com/coverimages/O-Re-Piya-Aaja-Nachle-500-500.jpg",
+        "musicName":"O Re Piya",
+        "artist":"Rahat Fateh Ali Khan, Salim-Sulaiman",
+        "musicSrc":"ORePiya.mp3"
+        
+    },
+    {
+        "id":5,
+        "albumImage":"https://pagalnew.com/coverimages/Rang-Lageya-Mohit-Chauhan-500-500.jpg",
+        "musicName":"Rang Lageya",
+        "artist":"Mohit Chauhan",
+        "musicSrc":"RangLageya.mp3"
+        
+    },
+    {
+        "id":6,
+        "albumImage":"https://pagalnew.com/coverimages/Sanju-Sidhu-Moose-Wala-500-500.jpg",
+        "musicName":"Sanju",
+        "artist":"Sidhu Moose Wala",
+        "musicSrc":"Sanju.mp3"
+        
+    },
+    {
+        "id":7,
+        "albumImage":"https://pagalnew.com/coverimages/album/bhula-dunga-500-500.jpg",
+        "musicName":"Bhula Dunga",
+        "artist":"Darshan Raval",
+        "musicSrc":"BhulaDunga.mp3"
+        
+    },
+    {
+        "id":8,
+        "albumImage":"https://pagalnew.com/coverimages/heeriye-arijit-singh-500-500.jpg",
+        "musicName":"Heeriye",
+        "artist":"Arijit Singh",
+        "musicSrc":"Heeriye.mp3"
+        
+    },
+    {
+        "id":9,
+        "albumImage":"https://pagalnew.com/coverimages/Kahani-Suno-2.0-Kaifi-Khalil-500-500.jpg",
+        "musicName":"Kahani Suno 2.0",
+        "artist":"Kaifi Khalil",
+        "musicSrc":"KahaniSuno.mp3"
+        
+    },
+    {
+        "id":10,
+        "albumImage":"https://pagalnew.com/coverimages/Hasi-Female-Version-Hamari-Adhuri-Kahani-Original-Motion-Picture-Soundtrack-500-500.jpg",
+        "musicName":"Hasi Female Version",
+        "artist":"Ami Mishra, Shreya Ghoshal",
+        "musicSrc":"Hasi.mp3"
+        
+    }
+]
