@@ -10,13 +10,12 @@ body{
     font-family: sans-serif;
     color: white;
 
-    
 }
 
 div.page1{
     width: 100%;
     height: 100vh;
-    background: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+    background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,7 +27,7 @@ div.page1{
 
 div.box{
     width: 25%;
-    height: 570px;
+    height: auto;
     border-radius: 25px;
     background: rgba(0,0,0,0.3);
     overflow: hidden;
@@ -61,18 +60,18 @@ div.msc_name,div.msc_artist{
 
 }
 
-
  div.msc_artist{
     margin: 10px 50px 0px 60px;
     line-height: 28px;
     font-size: 12px;
-    opacity: 0.7;
+    opacity: 0.9;
+    letter-spacing: 1px;
     
 }  
 
 div.blocks{
     width: 100%;
-    margin: 35px 0px 30px 0px;
+    margin: 35px 0px 20px 0px;
     display: flex;
     justify-content: space-around;
     padding: 0px 20px;
@@ -95,32 +94,646 @@ i.fa-pause{
     display: none;
 }
 
-/* Progress Bar */
 
-div.bar{
-    width: 70%;
-    height: 10px;
-    border-radius: 15px;
-    background: rgba(255,255,255,0.4);
-    margin: 0px 0px 0px 50px;
-    position:  relative;
+/* Changing Slider of Audio Player */
 
+input.range{
+    display:block;
+    margin: 0px auto;
+    height: 12px;
+    width: 230px;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#4E65FF,#5061ce);
+    cursor: pointer;
 }
 
-/* Main Point in Progress Bar */
+/* Changing scroller of audio player */
 
- div.point{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;;
-    background: white;
-} 
+input.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background:  linear-gradient(to right,#FF61D2 ,#FE9090);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 1px #FF61D2,
+                0px 0px 10px 1px #FE9090;
+}
+
 
 div.time{
-    margin: 15px 0px 0px 0px;
+    margin: 20px 0px 15px 0px;
     display: flex;
     gap: 165px;
-    padding: 0px 50px;
+    justify-content: center;
 }
 
+/* Media Queries b/w 320px and  420px*/
+
+@media (320px <= width <= 420px){
+
+    div.box{
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    div.image{
+        width: 60%;
+        height: 170px;
+        margin-top: 10px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        display:block;
+        margin: 23px auto 0px auto;
+        text-align: center;
+        line-height: 29px;
+    
+    }
+    
+     div.msc_artist{
+        margin: 0px 0px 0px 0px;
+        line-height: 26px;
+
+    }  
+
+    div.blocks{
+        margin: 20px 0px 20px 0px;
+        padding: 0px 40px;
+    }
+    
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 25px;
+    }
+
+    input.range{
+        width: 180px;
+    }
+
+    div.time{
+        margin: 20px 0px 5px 0px;
+        gap: 100px;
+        font-size: 21px;
+    }
+ 
+
+}
+
+/* Extra Media Queries b/w 320px and  420px*/
+
+@media (350px <= width <= 420px){
+
+    div.image{
+        width: 70%;
+        height: 190px;
+        margin-top: 20px;
+    }
+
+    div.msc_name,div.msc_artist{
+        padding: 0px 10px;
+    
+    }
+
+    input.range{
+        width: 220px;
+    }
+
+    div.time{
+        margin: 20px 0px 15px 0px;
+        gap: 135px;
+        font-size: 20px;
+    }
+}
+
+/* Extra Media Queries b/w 400px and  420px*/
+
+@media (400px <= width <= 420px){
+
+    div.image{
+        width: 70%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+     div.msc_name,div.msc_artist{
+        font-size: 14px;
+        line-height: 41px;
+    
+    }
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 28px;
+    }
+
+    input.range{
+        width: 230px;
+    }
+
+    div.time{
+        gap: 145px;
+        font-size: 21.2px;
+    } 
+}
+
+/* Media Queries b/w 421px and  560px*/
+
+@media (421px <= width <= 560px){
+
+    div.box{
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    div.image{
+        width: 70%;
+        height: 190px;
+        margin-top: 18px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        display:block;
+        margin: 16px auto 0px auto;
+        text-align: center;
+        line-height: 31px;
+    
+    }
+    
+     div.msc_artist{
+        margin: 0px 0px 0px 0px;
+        line-height: 26px;
+        padding: 0px 5px;
+
+    }  
+
+    div.blocks{
+        margin: 20px 0px 25px 0px;
+        padding: 0px 30px;
+    }
+    
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 26px;
+    }
+
+    input.range{
+        width: 220px;
+    }
+
+    div.time{
+        margin: 20px 0px 20px 0px;
+        gap: 140px;
+        font-size: 21px;
+    }
+ 
+
+}
+
+/* Extra Media Queries b/w 500px and  550px*/
+
+@media (500px <= width <= 550px){
+
+    div.image{
+        width: 80%;
+        height: 240px;
+        margin-top: 20px;
+    }
+
+     div.msc_name,div.msc_artist{
+        font-size: 13px;
+        line-height: 36px;
+    
+    }
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 29px;
+    }
+
+    input.range{
+        width: 290px;
+    }
+
+    div.time{
+        gap: 195px;
+        font-size: 22px;
+    } 
+}
+
+/* Media Queries b/w 551px and  650px*/
+
+@media (551px <= width <= 650px){
+
+    div.box{
+        width: 72%;
+        border-radius: 10px;
+    }
+
+    div.image{
+        width: 70%;
+        height: 230px;
+        margin-top: 22px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        display:block;
+        font-size: 13px;
+        margin: 30px auto 0px auto;
+        text-align: center;
+        line-height: 40px;
+    
+    }
+    
+     div.msc_artist{
+        margin: 0px 0px 0px 0px;
+        line-height: 37px;
+        padding: 0px 9px;
+
+    }  
+
+    div.blocks{
+        margin: 23px 0px 33px 0px;
+        padding: 0px 30px;
+    }
+    
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 31px;
+    }
+
+    input.range{
+        width: 250px;
+    }
+
+    div.time{
+        margin: 23px 0px 20px 0px;
+        gap: 155px;
+        font-size: 22px;
+    }
+ 
+
+}
+
+/* Extra Media Queries b/w 600px and  650px*/
+
+@media (600px <= width <= 650px){
+
+    div.image{
+        width: 80%;
+        height: 270px;
+        margin-top: 24px;
+    }
+
+     div.msc_name,div.msc_artist{
+        font-size: 14px;
+        line-height: 41px;
+    
+    }
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 31px;
+    }
+
+    input.range{
+        width: 290px;
+    }
+
+    div.time{
+        gap: 195px;
+        font-size: 23px;
+    }   
+}
+
+/* Media Queries b/w 651px and  1000px*/
+
+@media (651px <= width <= 1000px){
+
+    div.box{
+        width: 72%;
+        border-radius: 10px;
+    }
+
+    div.image{
+        width: 70%;
+        height: 290px;
+        margin-top: 25px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        display:block;
+        font-size: 14px;
+        margin: 35px auto 0px auto;
+        text-align: center;
+        line-height: 41px;
+        padding: 0px 20px;
+    
+    }
+    
+     div.msc_artist{
+        margin: 0px 0px 0px 0px;
+        line-height: 37px;
+        padding: 0px 9px;
+
+    }  
+
+    div.blocks{
+        margin: 30px 0px 33px 0px;
+        padding: 0px 50px;
+    }
+    
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 31px;
+    }
+
+    input.range{
+        width: 260px;
+    }
+
+    div.time{
+        margin: 23px 0px 20px 0px;
+        gap: 170px;
+        font-size: 23px;
+    }
+ 
+
+}
+
+/* Extra Media Queries b/w 700px and  800px*/
+
+@media (700px <= width <= 800px){
+
+    div.box{
+        width: 60%;
+    }
+
+    div.msc_name{
+        font-size: 15px;
+        line-height: 44px;
+    
+    }
+    
+
+    div.msc_artist{
+        font-size: 16px;
+        padding: 0px 14px;
+    } 
+    
+    div.time{
+        font-size: 24px;
+    }
+
+}
+
+/* Extra Media Queries b/w 801px and  1000px*/
+
+@media (801px <= width <= 1000px){
+
+    div.box{
+        width: 55%;
+    }
+
+    div.image{
+        width: 70%;
+        height: 300px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        font-size: 14px;
+        line-height: 42px;
+
+    }
+    
+     div.msc_artist{
+        line-height: 38px;
+        padding: 0px 13px;
+        font-size: 15px;
+
+    }  
+
+    div.blocks{
+        padding: 0px 35px;
+    }
+    
+}
+
+/* Extra Media Queries b/w 801px and  1000px*/
+
+@media (900px <= width <= 1000px){
+
+    div.box{
+        width: 50%;
+    }
+
+    div.image{
+        width: 70%;
+        height: 310px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        font-size: 15px;
+        line-height: 43px;
+
+    }
+    
+     div.msc_artist{
+        line-height: 38px;
+        padding: 0px 13px;
+        font-size: 17px;
+
+    }  
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 37px;
+    }
+
+    input.range{
+        width: 300px;
+        height: 8px;
+
+    }
+
+    div.time{
+        margin: 23px 0px 20px 0px;
+        gap: 200px;
+        font-size: 25px;
+    }
+    
+}
+
+/* Media Queries b/w 1001px and  1400px*/
+
+@media (1001px <= width <= 1400px){
+
+    div.box{
+        width: 30%;
+    }
+
+    div.image{
+        width: 70%;
+        height: 180px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        margin: 20px 0px 0px 0px; 
+        font-size: 11px;
+        text-align: center;
+        display: block;
+        line-height: 33px;
+
+    }
+    
+     div.msc_artist{
+        line-height: 38px;
+        padding: 0px 13px;
+        font-size: 11px;
+        margin: -10px 0px 0px 0px; 
+
+    }  
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 22px;
+    }
+
+    input.range{
+        width: 200px;
+        height: 8px;
+
+    }
+
+    div.blocks{
+        margin: 20px 0px 25px 0px;
+
+    }
+
+    div.time{
+        margin: 15px 0px 15px 0px;
+        gap: 130px;
+        font-size: 18px;
+    }
+ 
+
+}
+
+/* Extra Media Queries b/w 1100px and  1200px*/
+
+@media (1100px <= width <= 1200px){
+
+    div.blocks{
+        padding: 0px 49px;
+    }
+
+}
+
+/* Extra Media Queries b/w 1201px and  1400px*/
+
+@media (1201px <= width <= 1400px){
+
+    div.box{
+        width: 29%;
+    }
+
+    div.image{
+        width: 70%;
+        height: 200px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        margin: 20px 0px 0px 0px; 
+        font-size: 11.2px;
+        line-height: 33px;
+
+    }
+    
+     div.msc_artist{
+        line-height: 38px;
+        padding: 0px 13px;
+        font-size: 11px;
+        margin: -10px 0px 0px 0px; 
+
+    }  
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 22px;
+    }
+
+    input.range{
+        width: 260px;
+        height: 8px;
+
+    }
+
+    div.blocks{
+        margin: 20px 0px 25px 0px;
+    }
+
+    div.time{
+        margin: 15px 0px 15px 0px;
+        gap: 180px;
+        font-size: 18px;
+    }
+    
+}
+
+/* Extra Media Queries b/w 1201px and  1300px*/
+
+@media (1201px <= width <= 1400px){
+
+    input.range{
+        width: 240px;
+    }
+
+    div.time{
+        gap: 160px;
+    }
+
+}
+
+/* Media Queries b/w 1600px and  1800px*/
+
+@media (1600px <= width <= 1800px){
+
+    div.box{
+        width: 25%;
+    }
+
+    div.image{
+        width: 70%;
+        height: 220px;
+    }
+    
+    div.msc_name,div.msc_artist{
+        margin: 20px 0px 0px 0px; 
+        font-size: 11.5px;
+        text-align: center;
+        display: block;
+        line-height: 33px;
+
+    }
+    
+     div.msc_artist{
+        line-height: 38px;
+        padding: 0px 13px;
+        font-size: 12px;
+        margin: -10px 0px 0px 0px; 
+
+    }  
+
+    i.fa-backward,i.fa-forward,i.fa-play,i.fa-pause{
+        font-size: 23px;
+    }
+
+    input.range{
+        width: 230px;
+        height: 8px;
+
+    }
+
+    div.blocks{
+        margin: 20px 0px 25px 0px;
+        padding: 0px 50px;
+    }
+
+    div.time{
+        margin: 15px 0px 15px 0px;
+        gap: 155px;
+        font-size: 19px;
+    }
+ 
+
+}
