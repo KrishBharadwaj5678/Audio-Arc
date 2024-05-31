@@ -79,5 +79,41 @@
         "artist":"Ami Mishra, Shreya Ghoshal",
         "musicSrc":"Hasi.mp3"
         
+    },
+    {
+        "id":11,
+        "albumImage":"https://pagalnew.com/coverimages/Phir-Kabhi-M.S.-Dhoni---The-Untold-Story-500-500.jpg",
+        "musicName":"Phir Kabhi",
+        "artist":"Arijit Singh",
+        "musicSrc":"PhirKabhi.mp3"    
+    },
+  
+    {
+        "id":12,
+        "albumImage":"https://pagalnew.com/coverimages/Shaabaashiyaan-Mission-Mangal-500-500.jpg",
+        "musicName":"Shaabaashiyaan",
+        "artist":"Shilpa Rao, Anand Bhaskar, Abhijeet Srivastava",
+        "musicSrc":"Shaabaashiyaan.mp3"  
+    },
+    {
+        "id":13,
+        "albumImage":"https://pagalnew.com/coverimages/Jab-Tak-M.S.-Dhoni---The-Untold-Story-500-500.jpg",
+        "musicName":"Jab Tak",
+        "artist":"Armaan Malik",
+        "musicSrc":"JabTak.mp3"  
+    },
+    {
+        "id":14,
+        "albumImage":"https://pagalnew.com/coverimages/Tum-Hi-Ho-Aashiqui-2-500-500.jpg",
+        "musicName":"Tum Hi Ho",
+        "artist":"Arijit Singh",
+        "musicSrc":"TumHiHo.mp3"  
+    },
+    {
+        "id":15,
+        "albumImage":"https://www.pagalworld.com.ht/uploads/thumb/sft34/16721_4.webp",
+        "musicName":"Mary On A Cross",
+        "artist":"Ghost",
+        "musicSrc":"MaryOnACross.mp3"  
     }
 ]
