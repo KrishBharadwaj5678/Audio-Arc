@@ -1,6 +1,6 @@
-# 🎵 Audiioarc
+# 🎶 Audiioarc
 
-**Audiioarc** is a sleek, fully responsive music player built with **HTML**, **CSS**, and **JavaScript.
+**Audiioarc** is a sleek, fully responsive music player built with **HTML**, **CSS**, and **JavaScript. Designed for smooth interaction and a modern visual vibe, it works flawlessly on any device. 📱💻
 
 ---
 
@@ -18,7 +18,7 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/audiioarc.git
+   git clone https://github.com/KrishBharadwaj5678/Audio-Arc.git
    ```
 
 2. **Open `index.html` in your browser**
