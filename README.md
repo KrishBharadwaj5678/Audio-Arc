@@ -1,6 +1,6 @@
 # 🎶 Audiioarc
 
-**Audiioarc** is a sleek, fully responsive music player built with **HTML**, **CSS**, and **JavaScript. Designed for smooth interaction and a modern visual vibe, it works flawlessly on any device. 📱💻
+**Audiioarc** is a sleek, fully responsive music player built with **HTML**, **CSS**, and **JavaScript**. Designed for smooth interaction and a modern visual vibe, it works flawlessly on any device. 📱💻
 
 ---
 
