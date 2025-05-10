@@ -5,8 +5,6 @@
         "musicName":"Teri Baaton Mein Aisa Uljha Jiya",
         "artist":"Raghav, Tanishk Bagchi, Asees Kaur",
         "musicSrc":"TeriBaat.mp3"
-        
-        
     },
     {
         "id":2,
@@ -14,7 +12,6 @@
         "musicName":"Dil Diyan Gallan",
         "artist":"Atif Aslam",
         "musicSrc":"DilDiyanGallan.mp3"
-        
     },
     {
         "id":3,
@@ -22,7 +19,6 @@
         "musicName":"Teri Ore",
         "artist":"Pritam, Shreya Ghoshal, Rahat Fateh Ali Khan",
         "musicSrc":"TeriOre.mp3"
-        
     },
     {
         "id":4,
@@ -30,7 +26,6 @@
         "musicName":"O Re Piya",
         "artist":"Rahat Fateh Ali Khan, Salim-Sulaiman",
         "musicSrc":"ORePiya.mp3"
-        
     },
     {
         "id":5,
@@ -38,7 +33,6 @@
         "musicName":"Rang Lageya",
         "artist":"Mohit Chauhan",
         "musicSrc":"RangLageya.mp3"
-        
     },
     {
         "id":6,
@@ -46,7 +40,6 @@
         "musicName":"Sanju",
         "artist":"Sidhu Moose Wala",
         "musicSrc":"Sanju.mp3"
-        
     },
     {
         "id":7,
@@ -54,7 +47,6 @@
         "musicName":"Bhula Dunga",
         "artist":"Darshan Raval",
         "musicSrc":"BhulaDunga.mp3"
-        
     },
     {
         "id":8,
@@ -62,7 +54,6 @@
         "musicName":"Heeriye",
         "artist":"Arijit Singh",
         "musicSrc":"Heeriye.mp3"
-        
     },
     {
         "id":9,
@@ -70,7 +61,6 @@
         "musicName":"Kahani Suno 2.0",
         "artist":"Kaifi Khalil",
         "musicSrc":"KahaniSuno.mp3"
-        
     },
     {
         "id":10,
@@ -78,7 +68,6 @@
         "musicName":"Hasi Female Version",
         "artist":"Ami Mishra, Shreya Ghoshal",
         "musicSrc":"Hasi.mp3"
-        
     },
     {
         "id":11,
@@ -87,7 +76,6 @@
         "artist":"Arijit Singh",
         "musicSrc":"PhirKabhi.mp3"    
     },
-  
     {
         "id":12,
         "albumImage":"https://pagalnew.com/coverimages/Shaabaashiyaan-Mission-Mangal-500-500.jpg",
