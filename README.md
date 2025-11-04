@@ -31,12 +31,18 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/KrishBharadwaj5678/Audio-Arc.git
+   git clone https://github.com/KrishBharadwaj5678/Audioarc.git
    ```
 
-2. **Open `index.html` in your browser**
+2. **Navigate to the project folder**
 
-3. **Edit `music.json`** to update your playlist.
+   ```bash
+   cd audioPlayer
+   ```
+
+3. **Open `index.html` in your browser**
+
+4. **Edit `music.json`** to update your playlist.
 
 ---
 
