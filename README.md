@@ -1,19 +1,32 @@
 # 🎶 Audiioarc
 
-**Audiioarc** is a sleek, fully responsive music player built with **HTML**, **CSS**, and **JavaScript**. Designed for smooth interaction and a modern visual vibe, it works flawlessly on any device. 📱💻
+**Audiioarc** is a sleek, fully responsive music player built with **HTML**, **CSS**, and **JavaScript**. Designed for smooth interaction and a modern visual vibe, it works flawlessly on any device. 📱
+
+![AudioArcDemo](https://github.com/KrishBharadwaj5678/Audio-Arc/raw/main/AudioArcDemo.png)
+
+## Features ✨
+
+|  **Feature**                                     |  **Description**                                                   |
+| ------------------------------------------------ | ------------------------------------------------------------------ |
+| 🎧 **Modern Music Player Interface**             | Sleek appealing layout for seamless music experience.              |
+| 📱 **Fully Responsive & Mobile-Friendly Design** | Works perfectly across all devices and screen sizes.               |
+| ⏯️ **Play / Pause / Next / Previous Controls**   | Complete control over your playlist with intuitive buttons.        |
+| 🕒 **Real-time Progress Bar & Timestamp**        | Displays live playback time and track progress dynamically.        |
 
 ---
 
-## 🚀 Features
+## Tech Stack ⚙️
 
-* 🎧 **Modern Music Player Interface**
-* 📱 **Fully Responsive & Mobile-Friendly Design**
-* ⏯️ **Play / Pause / Next / Previous Controls**
-* 🕒 **Real-time Progress Bar & Timestamp**
+| **Technology**    |  **Purpose**                                                     |
+| ----------------- | ---------------------------------------------------------------- |
+| 🌐 **HTML5**      | Structure of the web pages and audio element integration.        |
+| 🎨 **CSS3**       | Styling, animations, and responsive layout design.               |
+| ⚙️ **JavaScript** | Handles music controls, progress updates, and interactivity.     |
+| 🗂️ **JSON**      | Stores and manages song data like title, artist, and file paths. |
 
 ---
 
-## 🔧 Getting Started
+## Getting Started 🔧
 
 1. **Clone the repository**
 
@@ -27,12 +40,12 @@
 
 ---
 
-## 🤝 Contributions
+## Contributing 🤝
 
-We welcome contributions from the community!
+Want to contribute? Here's how:
 
-1. Fork the repository 🍴
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add YourFeature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request 🚀
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch (`git checkout -b feature-name`).
+3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
+4. 🚀 Push to your branch (`git push origin feature-name`).
+5. 🔄 Submit a pull request to merge into the main branch.
